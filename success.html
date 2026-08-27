@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Signed in</title>
+<style>
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #111;
+    color: #00ff66;
+    font-family: monospace;
+  }
+  .card {
+    width: min(560px, calc(100% - 40px));
+    box-sizing: border-box;
+    background: #1b1b1b;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 32px;
+    text-align: center;
+  }
+  .check {
+    font-size: 52px;
+    margin-bottom: 12px;
+  }
+  h1 {
+    margin: 0 0 12px;
+  }
+  p {
+    color: #ddd;
+    line-height: 1.6;
+  }
+  .status {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 14px;
+    border-radius: 6px;
+    background: #063b22;
+    color: #00ff66;
+  }
+</style>
+</head>
+<body>
+  <main class="card">
+    <div class="check">✓</div>
+    <h1>Signed in successfully</h1>
+    <p>Your account authorization was completed.</p>
+    <div class="status">Authentication successful</div>
+    <p>You can safely return to the application.</p>
+  </main>
+</body>
+</html>
